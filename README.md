@@ -75,6 +75,6 @@ python setup.py install --yes USE_AVX_INSTRUCTIONS --no DLIB_USE_CUDA
 # step 3
 
 ```bash
-python drowsi.py
+python drowsiness detection.py
 
 ```
