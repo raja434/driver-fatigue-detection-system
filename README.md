@@ -67,8 +67,9 @@ At this point, you should be able to run `python3` and type `import dlib` succes
 cd ..
 python setup.py install --yes USE_AVX_INSTRUCTIONS --no DLIB_USE_CUDA
 ```
+# step 2
 
+```bash
+python drowsi.py
 
-
-
-
+```
