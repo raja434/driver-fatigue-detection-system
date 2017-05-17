@@ -50,8 +50,10 @@ python3 setup.py install --yes USE_AVX_INSTRUCTIONS --no DLIB_USE_CUDA
 At this point, you should be able to run `python3` and type `import dlib` successfully.
 
 # if you have python 2.7.---
+```bash
 cd ..
 python setup.py install --yes USE_AVX_INSTRUCTIONS --no DLIB_USE_CUDA
+```
 
 
 
