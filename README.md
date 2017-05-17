@@ -6,12 +6,21 @@ drowsiness detection
 # step 1:
  install all libarys 
 1) scipy  (pip install scipy)
-2) open cv (pip install open Cv)
+
+We’ll need the SciPy package so we can compute the Euclidean distance between facial landmarks points in the eye aspect ratio calculation (not strictly a requirement, but you should have SciPy installed if you intend on doing any work in the computer vision, image processing, or machine learning space).
+2) OpenCv
+openCv for computer vision 
 3) numpy (pip install numpy)
+numpy for basic processing and calcutions ...
 4) imutils (pip install imutils)
+We’ll also need the imutils package, my series of computer vision and image processing functions to make working with OpenCV easier.
 5) pyglet (pip install pyglet)
+we'll also need pyglet  playing sound such as .mp3 , .wav ...  
 6) dlib 
-# instalation of Dlib libary 
+To detect and localize facial landmarks we’ll need the dlib library
+
+
+# installation of Dlib libary 
 These instructions assume you are on macOS, but basically the same on Linux.
 
 Pre-reqs:
