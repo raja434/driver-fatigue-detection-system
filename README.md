@@ -1,10 +1,10 @@
 # driver-fatigue-detection-system
 drowsiness detection
 
-# intallation process
+# Intallation process
 
-# step 1:
- install all libarys 
+## step 1:
+ Install all libraries 
  - scipy  (pip install scipy)
      - We’ll need the SciPy package so we can compute the Euclidean distance between facial landmarks points in the eye aspect ratio calculation (not strictly a requirement, but you should have SciPy installed if you intend on doing any work in the computer vision, image processing, or machine learning space).
 
@@ -39,6 +39,8 @@ Pre-reqs:
   - Install boost. On Ubuntu, that's `sudo apt-get install libboost-all-dev`
 - This assumes you don't have an nVidia GPU and don't have Cuda and cuDNN installed and don't want
   GPU acceleration (since none of the current Mac models support this).
+- On Windows:
+  - Please follow this link to install dlib on Windows: https://www.learnopencv.com/install-dlib-on-windows/
 
 Clone the code from github:
 
